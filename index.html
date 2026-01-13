@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Friendship Runner Fundraising Stories</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: #0d1117;
+            padding: 40px;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .instructions {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #8b949e;
+            font-size: 14px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            margin: 50px 0 25px;
+            color: #58a6ff;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 10px;
+        }
+
+        .graphics-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        /* Story dimensions - 1080x1920 ratio scaled down */
+        .story {
+            width: 270px;
+            height: 480px;
+            background: linear-gradient(180deg, #1a2744 0%, #0f1729 100%);
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 25px 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+
+        .story .bh {
+            font-size: 10px;
+            color: rgba(255,255,255,0.5);
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .story .headline {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 32px;
+            line-height: 1.05;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .story .headline-blue {
+            color: #7dd3fc;
+        }
+
+        .story .headline-white {
+            color: white;
+        }
+
+        .story .subtext {
+            font-size: 11px;
+            color: rgba(255,255,255,0.8);
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+            line-height: 1.4;
+            text-transform: uppercase;
+        }
+
+        .story .emoji-graphic {
+            font-size: 80px;
+            margin: 15px 0;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+        }
+
+        .story .cta-section {
+            position: absolute;
+            bottom: 60px;
+            text-align: center;
+        }
+
+        .story .cta-main {
+            font-weight: 700;
+            font-size: 14px;
+            color: white;
+            margin-bottom: 8px;
+        }
+
+        .story .cta-url {
+            font-size: 11px;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .story .brand {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .story .brand-icon {
+            width: 16px;
+            height: 16px;
+            background: #7dd3fc;
+            border-radius: 50%;
+        }
+
+        .story .brand span:first-child {
+            color: white;
+            font-weight: 700;
+        }
+
+        /* Editable styling */
+        [contenteditable="true"] {
+            outline: 2px dashed #f97316;
+            outline-offset: 2px;
+            border-radius: 4px;
+            padding: 2px 4px;
+        }
+
+        [contenteditable="true"]:focus {
+            outline-color: #7dd3fc;
+            background: rgba(125, 211, 252, 0.1);
+        }
+
+        .edit-note {
+            background: #21262d;
+            border: 1px solid #30363d;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px auto;
+            max-width: 700px;
+            font-size: 13px;
+            color: #8b949e;
+        }
+
+        .edit-note strong {
+            color: #58a6ff;
+        }
+
+        /* Event details styling */
+        .story .event-details {
+            position: absolute;
+            bottom: 90px;
+            text-align: center;
+        }
+
+        .story .event-location {
+            font-weight: 700;
+            font-size: 13px;
+            color: #7dd3fc;
+        }
+
+        .story .event-info {
+            font-size: 12px;
+            color: #f97316;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏃 Team Friendship Runner Fundraising Stories</h1>
+    <p class="instructions">Screenshot these for Instagram/Facebook Stories. Click orange-outlined text to customize.</p>
+
+    <div class="edit-note">
+        <strong>How to use:</strong> Click any text with an orange outline to edit. Customize your event, goal, and URL. Then screenshot (Cmd+Shift+4 on Mac) each story you want to use!
+    </div>
+
+    <h2 class="section-title">🔥 Punny Fundraising Asks</h2>
+
+    <div class="graphics-row">
+        <!-- Story 1: Running on Empty -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">RUNNING ON EMPTY?</div>
+                <div class="headline-white">FILL UP ON GIVING.</div>
+            </div>
+            <div class="subtext">YOUR DONATION FUELS FRIENDSHIP</div>
+            <div class="emoji-graphic">⛽</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story 2: Extra Mile -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">GO THE EXTRA MILE.</div>
+                <div class="headline-white">LITERALLY.</div>
+            </div>
+            <div class="subtext">I'M RUNNING. YOU'RE GIVING.<br>KIDS ARE WINNING.</div>
+            <div class="emoji-graphic">🏃‍♂️</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story 3: Lace Up -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">LACE UP.</div>
+                <div class="headline-white">GIVE BACK.</div>
+            </div>
+            <div class="subtext">EVERY STEP CREATES FRIENDSHIP<br>FOR KIDS WITH SPECIAL NEEDS</div>
+            <div class="emoji-graphic">👟</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story 4: Your $36 -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">YOUR <span contenteditable="true">$36</span></div>
+                <div class="headline-white">GOES FURTHER THAN MY LEGS.</div>
+            </div>
+            <div class="subtext">AND TRUST ME, MY LEGS ARE TIRED.</div>
+            <div class="emoji-graphic">🦵</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+    </div>
+
+    <div class="graphics-row">
+        <!-- Story 5: I'm Running So You Don't Have To -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">I'M RUNNING</div>
+                <div class="headline-white">SO YOU DON'T HAVE TO.</div>
+            </div>
+            <div class="subtext">ALL YOU HAVE TO DO IS DONATE.</div>
+            <div class="emoji-graphic">😅</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story 6: Sweat Equity -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">SWEAT EQUITY.</div>
+                <div class="headline-white">REAL IMPACT.</div>
+            </div>
+            <div class="subtext">MY MILES + YOUR DOLLARS =<br>FRIENDSHIPS FOR LIFE</div>
+            <div class="emoji-graphic">💪</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story 7: My Blisters -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">MY BLISTERS.</div>
+                <div class="headline-white">YOUR BLESSING.</div>
+            </div>
+            <div class="subtext">WORTH EVERY STEP.</div>
+            <div class="emoji-graphic">🩹</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story 8: Every Step Counts -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">EVERY STEP COUNTS.</div>
+                <div class="headline-white">EVERY DOLLAR TOO.</div>
+            </div>
+            <div class="subtext">NO AMOUNT IS TOO SMALL.</div>
+            <div class="emoji-graphic">👣</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">⏰ Urgency / Last Chance</h2>
+
+    <div class="graphics-row">
+        <!-- Story: Last Chance Facepalm -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">LAST CHANCE!</div>
+                <div class="headline-white">IMAGINE TELLING PEOPLE YOU MISSED THIS.</div>
+            </div>
+            <div class="subtext">DON'T LET THIS BE YOU.</div>
+            <div class="emoji-graphic">🤦</div>
+            <div class="event-details">
+                <div class="event-location" contenteditable="true">NYC Half Marathon</div>
+                <div class="event-info" contenteditable="true">March 16 | $5,000 Goal</div>
+            </div>
+            <div class="cta-url" style="position: absolute; bottom: 65px; font-size: 11px; color: rgba(255,255,255,0.7);" contenteditable="true">teamfriendship.org/yourname</div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: Race Day Coming -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">RACE DAY IS</div>
+                <div class="headline-white" style="font-size: 50px;" contenteditable="true">7 DAYS</div>
+                <div class="headline-white">AWAY.</div>
+            </div>
+            <div class="subtext">NOW OR NEVER.</div>
+            <div class="emoji-graphic">⏰</div>
+            <div class="cta-section">
+                <div class="cta-main">Last chance to donate!</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: Finish Line -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">HELP ME CROSS</div>
+                <div class="headline-white">THE FINISH LINE.</div>
+            </div>
+            <div class="subtext"><span contenteditable="true">$800</span> LEFT TO REACH MY GOAL</div>
+            <div class="emoji-graphic">🏁</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: Don't Leave on Read -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">DON'T LEAVE</div>
+                <div class="headline-white">FRIENDSHIP ON READ.</div>
+            </div>
+            <div class="subtext">KIDS ARE WAITING.</div>
+            <div class="emoji-graphic">💬</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">🎉 Milestone / Thank You</h2>
+
+    <div class="graphics-row">
+        <!-- Story: Halfway There -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">HALFWAY THERE!</div>
+                <div class="headline-white" style="font-size: 50px;" contenteditable="true">50%</div>
+            </div>
+            <div class="subtext">AND STILL RUNNING STRONG.</div>
+            <div class="emoji-graphic">🙌</div>
+            <div class="cta-section">
+                <div class="cta-main">Help me hit 100%!</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: We Did It -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">WE DID IT!</div>
+                <div class="headline-white">GOAL REACHED.</div>
+            </div>
+            <div class="subtext">THANK YOU TO EVERYONE<br>WHO BELIEVED IN ME.</div>
+            <div class="emoji-graphic">🎉</div>
+            <div class="cta-section">
+                <div class="cta-main"><span contenteditable="true">$5,000</span> raised for<br>Friendship Circle</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: Thank You Heart -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">YOU SHOWED UP.</div>
+                <div class="headline-white">THANK YOU.</div>
+            </div>
+            <div class="subtext">EVERY DONATION = MORE FRIENDSHIP</div>
+            <div class="emoji-graphic">❤️</div>
+            <div class="cta-section">
+                <div class="cta-main">Grateful beyond words.</div>
+                <div class="cta-url"></div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: Finished -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">I FINISHED.</div>
+                <div class="headline-white">WE WON.</div>
+            </div>
+            <div class="subtext"><span contenteditable="true">13.1 MILES</span> FOR FRIENDSHIP CIRCLE</div>
+            <div class="emoji-graphic">🏅</div>
+            <div class="cta-section">
+                <div class="cta-main">Thank you for carrying me<br>to the finish line.</div>
+                <div class="cta-url"></div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">💰 Specific Donation Asks</h2>
+
+    <div class="graphics-row">
+        <!-- Story: $18 Chai -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">$18 = CHAI.</div>
+                <div class="headline-white">CHAI = LIFE.</div>
+            </div>
+            <div class="subtext">GIVE LIFE TO FRIENDSHIP.</div>
+            <div class="emoji-graphic">☕</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: Skip Coffee -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">SKIP THE LATTE.</div>
+                <div class="headline-white">CHANGE A LIFE.</div>
+            </div>
+            <div class="subtext">$7 = ONE HOUR OF FRIENDSHIP<br>FOR A CHILD WITH SPECIAL NEEDS</div>
+            <div class="emoji-graphic">☕</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: $36 Impact -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">$36 =</div>
+                <div class="headline-white">1 SUNDAY CIRCLE PROGRAM.</div>
+            </div>
+            <div class="subtext">THAT'S IT. THAT'S THE ASK.</div>
+            <div class="emoji-graphic">🎯</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+
+        <!-- Story: Per Mile -->
+        <div class="story">
+            <div class="bh">B"H</div>
+            <div class="headline">
+                <div class="headline-blue">SPONSOR A MILE.</div>
+                <div class="headline-white">$5 PER MILE.</div>
+            </div>
+            <div class="subtext">I'M RUNNING <span contenteditable="true">13.1</span> OF THEM.</div>
+            <div class="emoji-graphic">📍</div>
+            <div class="cta-section">
+                <div class="cta-main">Support my run with<br>Team Friendship</div>
+                <div class="cta-url" contenteditable="true">teamfriendship.org/donate</div>
+            </div>
+            <div class="brand">
+                <div class="brand-icon"></div>
+                <span>Team</span>Friendship
+            </div>
+        </div>
+    </div>
+
+    <div class="edit-note" style="margin-top: 40px;">
+        <strong>Screenshot tips:</strong><br>
+        • <strong>Mac:</strong> Cmd + Shift + 4, then drag to select one story<br>
+        • <strong>Best size:</strong> Screenshot at 2x zoom for higher quality (Cmd + Plus to zoom in browser)<br>
+        • <strong>Edit first:</strong> Click orange-outlined text to customize before screenshotting<br>
+        • <strong>Post to:</strong> Instagram Stories, Facebook Stories, WhatsApp Status
+    </div>
+
+</body>
+</html>
